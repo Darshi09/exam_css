@@ -8,7 +8,9 @@
   text-transform: capitalize;
   transition: 0.2s linear;
 }
-
+:root{
+  --white: #fff;
+}
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -45,7 +47,7 @@ section {
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
   background: #244d4d;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -80,7 +82,7 @@ section {
   height: 5rem;
   width: 50rem;
   border-radius: 5rem;
-  background: #fff;
+  background: var(--white);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -195,14 +197,14 @@ section {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border: 0.1rem solid #244d4d;
   text-align: center;
-  background: #fff;
+  background: var(--white);
   cursor: pointer;
 }
 
 .home #slide-next:hover,
 .home #slide-prev:hover {
   background: #244d4d;
-  color: #fff;
+  color: var(--white);
 }
 
 .home #slide-next {
@@ -314,6 +316,6 @@ section {
 .credit {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
   background: #244d4d;
 }
